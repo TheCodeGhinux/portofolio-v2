@@ -9,7 +9,7 @@
     height: 100vh;
     padding: 10vh 0;
 }
-
+ 
 .portfolio-con {
     display: flex;
     flex-direction: column;
@@ -70,9 +70,35 @@
 
 
 @media screen and (max-width: 500px) {
+    #portfolio {
+        height: 100%;
+    }
+
+    .portfolio-con {
+        height: 100%;
+    }
+
     .portfolio-skill {
         grid-template-columns: repeat(2, 1fr);
         max-width: 37.5rem;
         gap: 1rem;
+    }
+
+    .portfolio-skill {
+        grid-auto-rows: 9.5rem;
+    }
+
+    .project-con {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .project-img > img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .portfolio-skill-title {
+        font-size: .7em;
     }
 }

@@ -1,3 +1,8 @@
+#contact {
+    height: auto !important;
+    padding: 10vh 0;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -68,5 +73,23 @@ input, textarea {
 @media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: .5rem;
+        color: var(--color-green);
+    }
+
+    .container.contact__container {
+        grid-template-columns: 30% 58%;
+        justify-items: center;
+    }
+
+    .contact__option {
+        padding: 4px;
+    }
+
+    .contact__option a {
+        margin-top: .4rem;
     }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'
 import Header from './components/header/Header'
 import Nav from './components/Navbar/nav'
-import Navigation from './components/Navbar/navigation'
+// import Navigation from './components/Navbar/navigation'
 import About from './components/about/About'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Navigation/>
+      {/* <Navigation/> */}
       <main className="container">
         <Header />
         <About />

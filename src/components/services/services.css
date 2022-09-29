@@ -55,7 +55,7 @@
     height: 3rem;
     width: 3rem;
 }
-
+ 
 .services-skill-title {
     color: var(--color-bg);
 }
@@ -63,9 +63,35 @@
 
 
 @media screen and (max-width: 500px) {
+    #services {
+        height: 100%;
+    }
+
+    .services-con {
+        height: 100%;
+    }
+
     .services-skill {
         grid-template-columns: repeat(2, 1fr);
         max-width: 37.5rem;
         gap: 1rem;
+    }
+
+    .services-skill {
+        grid-auto-rows: 9.5rem;
+    }
+
+    .services-skill-con {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .services-skill-icon > svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .services-skill-title {
+        font-size: .7em;
     }
 }
