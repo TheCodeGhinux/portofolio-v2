@@ -1,0 +1,78 @@
+#portfolio {
+    background-color: var(--color-primary-variant);
+    padding: 10vh 0;
+}
+
+
+
+#portfolio {
+    height: 100vh;
+    padding: 10vh 0;
+}
+
+.portfolio-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+.portfolio-tag {
+    color: var(--color-green);
+}
+
+.portfolio-title-con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.portfolio-skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 12rem;
+    gap: 2rem;
+    width: 100%;
+    /* max-width: 37.5rem; */
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+}
+
+.project-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    /* background-color: var(--color-primary-variant); */
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid var(--color-green);
+    border-radius: 15px;
+    width: 12rem;
+    height: 13rem;
+}
+
+.project-img > img {
+    height: 8rem;
+    width: 9rem;
+    border-radius: 10px;
+}
+
+.portfolio-skill-title {
+    color: var(--color-bg);
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .portfolio-skill {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 37.5rem;
+        gap: 1rem;
+    }
+}

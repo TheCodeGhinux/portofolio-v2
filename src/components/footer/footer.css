@@ -1,0 +1,28 @@
+
+.footer {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-variant);
+    font-size: 1.2em;
+    
+}
+
+.footer > h4 {
+    height: 7vh;
+    word-spacing: 3px;
+}
+
+span {
+    margin-left: 1rem;
+    color: var(--color-green);
+}
+
+.footer svg {
+    margin: 0 0.2rem;
+    color: var(--color-green);
+    font-size: 1.5em;
+    top: 15%;
+    position: relative;
+}

@@ -1,0 +1,57 @@
+
+
+#header {
+    position: relative;
+    top: 6rem;
+    padding-left: 4rem;
+    /* height: 80vh; */
+}
+
+
+
+.intro-con {
+    width: 75vw;
+    padding: 2rem;
+    /* position: absolute; */
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.intro {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.into-subtext {
+    /* position: absolute; */
+
+    width: 50%;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro-btn {
+    padding: .5rem;
+    background-color: var(--color-green);
+    color: var(--color-bg);
+    width: 9rem;
+    border-radius: 2rem;
+    font-size: 1em;
+}
+
+.contact-btn {
+    padding: .5rem;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    width: 9rem;
+    border-radius: 2rem;
+    border: 3px solid var(--color-green);
+    font-size: 1em;
+}
